@@ -1,5 +1,24 @@
-layout_spectrum: 0.38157695558466165
-typography_spectrum: 0.764818675398716
+name: Harpert van Seggelen
+analytics: {}
+github: true
+description: Aspects that interest me
+author:
+  name: Harpert van Seggelen
+  email: harpertvanseggelen@gmail.com
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+content: []
+layout_spectrum: 0.3815769555846616
 color:
   lightness: 0.9278326388133118
   brandColors:
@@ -9,29 +28,12 @@ color:
     - '#E2F0D6'
     - '#F6FFE0'
   saturation: 0.6467194635186824
-  brandStrength: 0.029177283100359656
+  brandStrength: 0.02917728310035966
   rhythmicContrast: 0.5043126562596437
-coverPrefs:
-  filter: false
-name: Harpert v1
-analytics: {}
-github: true
-description: test
-author: {}
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
-    permalink:
-      path: '/:title/'
-content: []
 content_rating:
   adult: false
+typography_spectrum: 0.764818675398716
 opengraph: {}
-title: test
+title: Introducing myself
+coverPrefs:
+  filter: false
